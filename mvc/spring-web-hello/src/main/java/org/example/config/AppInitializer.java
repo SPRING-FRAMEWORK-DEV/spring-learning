@@ -12,7 +12,7 @@ public class AppInitializer implements WebApplicationInitializer {
 
   @Override
   public void onStartup(ServletContext servletContext) throws ServletException {
-    System.out.println("Initializing application...");
+    System.out.println("....... Initializing application .......");
     AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
     context.register(AppConfig.class);
 
