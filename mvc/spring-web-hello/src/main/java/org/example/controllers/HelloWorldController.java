@@ -11,7 +11,13 @@ public class HelloWorldController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView helloWorld(@RequestParam("city") String city) {
-        String message = "Spring, Hello, World! "+city;
-        return new ModelAndView("hello", "message", message);
+        String textMessage = "Spring, Hello, World! "+city;
+        return new ModelAndView("hello", "message", textMessage);
+    }
+
+    @RequestMapping(value = "/health", method = RequestMethod.GET)
+    public ModelAndView health() {
+        String textMessage = "Spring, Hello, World! ";
+        return new ModelAndView("hello", "message", textMessage);
     }
 }
