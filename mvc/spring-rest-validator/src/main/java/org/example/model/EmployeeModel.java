@@ -1,8 +1,12 @@
 package org.example.model;
 
+import org.example.validator.ValidEmployee;
+
+@ValidEmployee
 public class EmployeeModel {
 
     private int id;
+    private String name;
 
     public int getId() {
         return id;
@@ -10,5 +14,13 @@ public class EmployeeModel {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

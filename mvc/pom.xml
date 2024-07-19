@@ -17,6 +17,7 @@
         <module>spring-web-forms</module>
         <module>spring-rest-hello</module>
         <module>spring-rest-api</module>
+        <module>spring-rest-validator</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
