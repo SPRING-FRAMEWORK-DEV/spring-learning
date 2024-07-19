@@ -15,6 +15,8 @@
     <modules>
         <module>spring-web-hello</module>
         <module>spring-web-forms</module>
+        <module>spring-rest-hello</module>
+        <module>spring-rest-api</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
